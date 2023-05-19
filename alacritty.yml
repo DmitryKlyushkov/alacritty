@@ -1,0 +1,30 @@
+window:
+  # terminal padding
+  padding:
+    x: 15
+    y: 15
+
+  # background opacity
+  opacity: 0.1
+
+# font settings
+font:
+  normal:
+    style: Regular
+    family: Hack Nerd Font
+  bold:
+    style: Bold
+    family: Hack Nerd Font
+  size: 12.0
+
+colors:
+  # background color (light grey), font color (white)
+  primary:
+    background: "#eeeeee"
+    foreground: "#ffffff"
+
+shell:
+  # default shell is fish
+  program: /bin/fish
+  args:
+    - --login
